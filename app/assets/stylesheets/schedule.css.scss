@@ -1,3 +1,55 @@
 // Place all the styles related to the schedule controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+	margin: 0 0;
+	padding: 0 0;
+	background: #FFCC80;
+}
+
+nav ul {
+	text-align: center;
+	display: inline;
+}
+
+nav li {
+	float: left;
+	margin: 0 0.01em;
+	list-style: none;
+}
+
+nav li a {
+	background: #0cf;
+	height: 2em;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	width: 6.7em;
+	display: block;
+	border: 0.1em solid #dcdce9;
+	color: #FFFF19;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+nav li a:active {
+	background: #0af;
+
+}
+.schedule {
+	background: white;
+	height: 50px;
+	width: 100%;
+	padding-top: 0;
+}
+h1 {
+	text-align: center;
+}
+
+p {
+	clear: both;
+}
