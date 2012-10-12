@@ -1,12 +1,6 @@
 // Place all the styles related to the schedule controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-html {
-	margin: 0 0;
-	padding: 0 0;
-
-}
-
 ul {
 	text-align: center;
 	display: inline;
@@ -30,7 +24,7 @@ ul li .direction{
 ul li a {
 	clear: both;
 	border-radius:0.5em;
-	background: #0cf;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000), color-stop(100%,#fff));
 	height: 2em;
 	font-size: 0.9em;
 	line-height: 2em;
@@ -49,14 +43,15 @@ ul li a:hover {
 
 ul li a:active {
 	background: #0af;
-
 }
+
 .schedule {
 	background: white;
 	height: 50px;
 	width: 100%;
 	padding-top: 0;
 }
+
 h1 {
 	text-align: center;
 	border-top: 2px solid black;
