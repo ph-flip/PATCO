@@ -4,27 +4,38 @@
 html {
 	margin: 0 0;
 	padding: 0 0;
-	background: #FFCC80;
+
 }
 
-nav ul {
+ul {
 	text-align: center;
 	display: inline;
 }
 
-nav li {
+ul li {
 	float: left;
 	margin: 0 0.01em;
 	list-style: none;
 }
 
-nav li a {
+ul li .direction{
+	clear: both;
+	float: left;
+	width: 7.3em;
+	background: #0cf;
+	margin-left: 50px;
+	list-style: none;
+}
+
+ul li a {
+	clear: both;
+	border-radius:0.5em;
 	background: #0cf;
 	height: 2em;
 	font-size: 0.9em;
 	line-height: 2em;
 	float: left;
-	width: 6.7em;
+	width: 7.3em;
 	display: block;
 	border: 0.1em solid #dcdce9;
 	color: #FFFF19;
@@ -32,11 +43,11 @@ nav li a {
 	text-align: center;
 }
 
-nav li a:hover {
+ul li a:hover {
 	text-decoration: underline;
 }
 
-nav li a:active {
+ul li a:active {
 	background: #0af;
 
 }
@@ -48,8 +59,28 @@ nav li a:active {
 }
 h1 {
 	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 p {
 	clear: both;
+}
+
+.tooltip{
+    position:absolute;
+    display:none;
+    background-color:#dedede;
+    padding:5px;
+    border:1px solid #fff;
+    width:auto;
+    height: auto;
+}
+
+.tooltip p{
+    margin:0;
+    padding:0;
+    color:#fff;
+    background-color:#222;
+    padding:2px 7px;
 }

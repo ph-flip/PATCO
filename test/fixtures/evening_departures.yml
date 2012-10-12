@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  departuresBoforeMidnight: 2012-10-12 11:13:11
+
+two:
+  departuresBoforeMidnight: 2012-10-12 11:13:11

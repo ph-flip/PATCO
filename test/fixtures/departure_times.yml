@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  stations: 
+  morning: 2012-10-12 10:12:06
+  afternoon: 2012-10-12 10:12:06
+  evening: 2012-10-12 10:12:06
+
+two:
+  stations: 
+  morning: 2012-10-12 10:12:06
+  afternoon: 2012-10-12 10:12:06
+  evening: 2012-10-12 10:12:06

@@ -1,6 +1,6 @@
 function displayDirection(stations, name){
  $('li a').each(function(i){
-		$(this).append("<div class='"+name+"' id='"+name+i+"'><p>'table'</p></div>");
+		$(this).append("<div class='"+name+"' id='"+name+i+"'><p>table <br>TABLE</p></div>");
 		var my_tooltip = $("#"+name+i);
 
 		$(this).hover(function(){
